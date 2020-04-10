@@ -1,0 +1,60 @@
+.containerMember {
+  display: grid;
+  grid-gap: 40px 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cardMember {
+  width: 310px;
+  margin: 0 auto;
+  background: #f1f1f1;
+  overflow: hidden;
+  font-family: 'RobotoRegular';
+  box-shadow: 0 0 20px #00000070;
+}
+
+.cardMember .top-section {
+  position: relative;
+}
+
+.cardMember .top-section img {
+  width: 100%;
+  height: 240px;
+}
+
+.cardMember .memberName {
+  position: absolute;
+  font-family: 'RobotoBold';
+  bottom: 20px;
+  left: 10px;
+  right: 5px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.cardMember .memberName .instituicao {
+  font-size: 16px;
+  font-family: 'RobotoRegular';
+}
+
+.cardMember .info-section {
+  padding: 25px;
+  padding-top: 0;
+  font-size: 0.7rem;
+  color: #333;
+}
+
+.cardMember .info-section h2 {
+  position: relative;
+  font-size: 16px;
+  font-family: 'RobotoBold';
+}
+
+.cardMember .info-section h2 .border {
+  width: 30px;
+  height: 3px;
+  background: #778beb;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+}

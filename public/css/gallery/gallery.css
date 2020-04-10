@@ -1,0 +1,41 @@
+.gallery {
+  margin-top: 10px;
+}
+
+.projects .card-gallery {
+  display: flex;
+  flex-direction: column;
+  background: rgb(251, 251, 251);
+  width: 300px;
+  float: right;
+  margin: 20px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 14px #0000004e;
+}
+
+.projects .card-gallery h1 {
+  margin-bottom: -4px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  border: none;
+}
+
+.card-gallery .card-images {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  grid-gap: 20px;
+}
+
+.card-gallery .card-images img {
+  width: 100%;
+  overflow: hidden;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 auto;
+}

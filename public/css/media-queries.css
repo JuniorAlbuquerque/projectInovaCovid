@@ -1,0 +1,294 @@
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .top-nav .nav-list {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-nav .logo {
+    width: 150px;
+    position: absolute;
+    top: 41px;
+    left: 47%;
+    transform: translate(-50%, -50%);
+  }
+
+  .top-nav .logo-mowah {
+    width: 60px;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .top-nav .logo-mowah img {
+    width: 100%;
+  }
+
+  .menu-toggle {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 1.7rem;
+    height: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 999;
+  }
+
+  .iniciativa {
+    background-attachment: initial;
+  }
+
+  .iniciativa .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 100px 0px 20px 0px;
+  }
+
+  .iniciativa .container .text {
+    font-size: 1.4em;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+  }
+
+  .iniciativa .container .text.textCorona {
+    font-size: 2.4rem;
+    margin-left: 10px;
+    letter-spacing: 12px;
+    font-family: 'RobotoBold', sans-serif;
+    color: rgb(255, 247, 0);
+  }
+
+  .iniciativa .container .textInfo {
+    font-size: 0.7rem;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'RobotoMedium';
+    color: rgb(255, 255, 255);
+  }
+
+  .iniciativa .social-media .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iniciativa .social-media .nav-list a i {
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1rem;
+    margin: 0px 20px 10px 20px;
+  }
+
+  .iniciativa .social-media .nav-list a i:hover {
+    background: linear-gradient(to top, #0800f1, #0052f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+  }
+
+  /* MAIN INCIATIVA */
+  .main-iniciativa {
+    margin: -10px 20px 20px 20px;
+  }
+
+  .main-iniciativa .title {
+    grid-area: title;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 40px 10px 40px;
+  }
+
+  .main-iniciativa .carousel {
+    grid-template-columns: auto;
+  }
+
+  .main-iniciativa .text {
+    margin: 14px 0px 0px 0px;
+    text-align: justify;
+    font-size: 0.7rem;
+  }
+
+  /* PROJETCTS */
+  .projects {
+    margin: 0px;
+  }
+
+  .projects {
+    grid-area: projetos;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 'projects' 'gallery';
+    justify-content: center;
+  }
+
+  /* REDE */
+  .containerMember {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cardMember {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .cardMember .memberName {
+    font-size: 1rem;
+  }
+
+  .cardMember .info-section {
+    font-size: 0.65rem;
+    height: auto;
+  }
+
+  .cardMember .info-section h2 {
+    font-size: 14px;
+  }
+
+  /* COLABORE */
+  .colabore {
+    grid-area: colabore;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin: -10px 0px 40px 10px;
+  }
+
+  .colabore h4 {
+    text-align: justify;
+    width: 90%;
+  }
+
+  .colabore .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .colabore .container h1 {
+    margin: 20px;
+  }
+
+  .colabore span {
+    font-family: 'RobotoLight', sans-serif;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+  }
+
+  .colabore form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .colabore form label {
+    margin-bottom: 7px;
+    margin-top: 20px;
+  }
+
+  .colabore form input {
+    border: 1px solid #c7c7c7;
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 4px;
+  }
+
+  .colabore form textarea {
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+    padding: 4px;
+    font-family: 'RobotoLight', sans-serif;
+  }
+
+  .colabore form button {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    background: rgb(10, 90, 102);
+    color: white;
+    font-family: 'RobotoBold', sans-serif;
+    cursor: pointer;
+  }
+
+  .colabore p {
+    font-family: 'RobotoBold', sans-serif;
+    background: linear-gradient(to right, #00e62e, #0048ff);
+    margin: 40px 0px 10px 0px;
+    font-size: 2em;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .colabore img {
+    margin: 0 auto;
+  }
+
+  /* PARCEIROS */
+  .parceiros {
+    grid-area: parceiros;
+    text-align: center;
+  }
+
+  .parceiros .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .parceiros .container img {
+    width: 80px;
+    height: 80px;
+    margin: 40px 10px 20px 10px;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  80% {
+    left: -300%;
+  }
+  95% {
+    left: -400%;
+  }
+  100% {
+    left: -400%;
+  }
+}
